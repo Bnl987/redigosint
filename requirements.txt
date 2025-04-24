@@ -1,0 +1,7 @@
+termcolor
+argparse
+instagrapi
+requests
+beautifulsoup4
+colorama
+googlesearch-python
