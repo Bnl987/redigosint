@@ -1,1 +1,39 @@
-# redigosint
+# redigosint - Instagram OSINT Tool 🔍
+
+## Overview
+Red Ig OSINT is a comprehensive OSINT tool for Instagram. It gathers extensive information about the target user. Support my GitHub repo by giving it a star! ⭐
+
+ 
+## Features
+```sh
+- Basic information - Number and email (masked format), ID, username, number of posts, bio, number of followers, whether the account is private or public, whether it is a business account, etc..
+- Download Posts: Bulk download all available posts from a target account.
+- Collect Comments: Extract and store comments from posts.
+- Retrieve Followers & Following Lists: Export lists of followers and the accounts being followed.
+- Download Stories Anonymously: Downloading the target stories anonymously.
+- Identify Posts with User Comments (Dorking): Extracting the posts that the target has commented on.
+- Extract Geolocation from Posts: Retrieve and analyze geolocation data embedded in posts.
+- Download Instagram Highlights: Save all highlight stories from a profile.
+```
+## Installation & Usage
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/bnl987/redigosint.git
+   cd redigosint
+   ```
+2. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+3. Run the tool:
+   ```sh
+   python3 redigosint.py
+   ```
+
+## Configuration
+- The session is saved in `session.json`. Make sure to keep this file secure.
+- Modify API request headers if necessary for stability and efficiency.
+
+## Disclaimer
+This tool is intended for educational and research purposes only. Unauthorized use of Instagram data may violate Instagram's policies. Use responsibly.
+
